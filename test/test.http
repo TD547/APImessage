@@ -1,5 +1,13 @@
-DELETE http://localhost:3000/message/3
+POST http://localhost:3000/message/4
 Content-Type: application/json
 
 {
+  "auteur": "test",
+  "contenu": "test",
+  "date": "25/02/2022"
 }
+
+#####
+
+GET http://localhost:3000/message/
+Content-Type: application/json
